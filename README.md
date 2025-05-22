@@ -28,16 +28,18 @@ git clone https://github.com/TrueAc/nbu-qd-tool.git
 
 ## 三，使用工具
 
-1. 打开第一步中文件的下载位置
+1. 打开第一步中文件的下载位置并进入nbu-qd-tool
 
 2. 在文件栏上方搜索栏输入“cmd”，打开命令行页面
 
-![image](assets/image-20250522201701-n2o2o8b.png)
+![image](assets/image-20250522204749-km1u4zg.png)
+
+　　​​
 
 3. 输入 qd -h,显示右方信息，则说明工具可以正常启用
 
 ```bash
-宁波大学自动签到工具>qd -h
+nbu-qd-tool>qd -h
 Usage: qd [OPTIONS] --cookie <COOKIE>
 
 Options:
@@ -50,7 +52,7 @@ Options:
     将获取的cookie替换‘your_cookie_there’，回车键后工具将自动开始监听是否存在课程未签到，若未签到，工具是自动进行签到。
 
 ```bash
-qd -c your_cookie_there -w
+nbu-qd-tool>qd -c your_cookie_there -w
 ```
 
 　　‍
